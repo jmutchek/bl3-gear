@@ -1,6 +1,6 @@
 <template>
   <div class="search">
-    <input />
+    <input v-model='searchterm' :autofocus="true"/>
   </div>
 </template>
 
@@ -8,6 +8,16 @@
 export default {
   name: 'SearchBar',
   props: {
+  },
+  data: function () {
+    return {
+      searchterm: ''
+    }
+  },
+  watch: {
+    searchterm: function(val) {
+      this.$emit('filter', val)
+    }
   }
 }
 </script>
@@ -21,7 +31,7 @@ export default {
 
 input {
   font-size: 30px;
-  width: 100%;
+  width: 90%;
 }
 
 </style>

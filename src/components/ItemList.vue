@@ -1,6 +1,6 @@
 <template>
   <div class="itemlist">
-    <Item v-for='(item) in this.items' v-bind:key='item.id' :item='item'/>
+    <Item v-for='(item) in this.items' v-bind:key='item.id' :item='item' :itemfilter='filter'/>
   </div>
 </template>
 
@@ -13,7 +13,8 @@ export default {
     Item
   },
   props: {
-    items: Array
+    items: Array,
+    filter: String
   }
 }
 </script>

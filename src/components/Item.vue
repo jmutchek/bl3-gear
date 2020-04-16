@@ -1,5 +1,5 @@
 <template>
-  <div class='item'>
+  <div class='item' v-show='filtered'>
     <div class='name'> {{item.name}} </div>
     <div class='redtext'> {{item.redtext}} </div>
     <div :class='{ tier1: tier1, tier2: tier2 }' class='tierbanner'></div>
@@ -14,7 +14,8 @@
 export default {
   name: 'Item',
   props: {
-    item: Object
+    item: Object,
+    itemfilter: String
   },
   computed: {
     topTier: function() {
@@ -25,6 +26,9 @@ export default {
     },
     tier2: function() {
       return (this.item.tier == 2)
+    },
+    filtered: function() {
+      return (this.item.name.toLowerCase().includes(this.itemfilter))
     }
   }
 }
@@ -38,12 +42,12 @@ export default {
 }
 
 .name {
-  font-size: 24px;
+  font-size: 28px;
   text-align: left;
 }
 
 .redtext {
-  font-size: 12px;
+  font-size: 16px;
   text-align: left;
   color: red;
   margin-bottom: 4px;
@@ -51,12 +55,22 @@ export default {
 }
 
 .type {
-  font-size: 12px;
+  font-size: 16px;
   text-align: left;
+}
+
+.summary {
+  font-size: 16px;
+  text-align: left;
+  margin-top: 6px;
 }
 
 .details {
   color: grey;
+}
+
+.tierbanner {
+  width: 95%;
 }
 
 .tier1 {
@@ -75,10 +89,5 @@ export default {
   font-weight: bold;
 }
 
-.summary {
-  font-size: 12px;
-  text-align: left;
-  margin-top: 6px;
-}
 
 </style>
