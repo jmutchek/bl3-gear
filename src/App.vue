@@ -1,19 +1,31 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <SearchBar />
+    <ItemList :items='this.config' />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SearchBar from "./components/SearchBar.vue";
+import ItemList from "./components/ItemList.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    SearchBar,
+    ItemList
+  },
+  data: function() {
+    return {
+      // init the json config object with an empty [0] because I reference it in the template
+      // can be config: {} once I remove that hard reference
+      config: [{ name: "" }]
+    };
+  },
+  mounted() {
+    this.config = require('./assets/bl3items.json');
   }
-}
+};
 </script>
 
 <style>
@@ -23,6 +35,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 </style>
