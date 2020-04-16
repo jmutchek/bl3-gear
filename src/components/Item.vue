@@ -1,6 +1,6 @@
 <template>
   <div class="item">
-    <span> {{item.name}} </span>
+    <div> {{item.name}} </div>
   </div>
 </template>
 
@@ -15,5 +15,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+.item {
+  font-size: 24px;
+  text-align: left;
+  padding-bottom: 6px;
+}
 
 </style>

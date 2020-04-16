@@ -24,6 +24,7 @@ export default {
 .itemlist {
   overflow-y: scroll;
   max-height: 100vh;
+  margin-left: 16px;
 }
 
 </style>
