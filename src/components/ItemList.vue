@@ -25,6 +25,7 @@ export default {
   overflow-y: scroll;
   max-height: 100vh;
   margin-left: 16px;
+  margin-right: 10px;
 }
 
 </style>

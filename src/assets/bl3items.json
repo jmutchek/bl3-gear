@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "brand": "",
+    "brand": "A",
     "rarity": "Unique",
     "dlc": "Core",
-    "type": "A",
+    "type": "Grenade Mod",
     "class": "",
     "name": "Bouncy Exterminator",
     "tier": "",
@@ -753,7 +753,7 @@
     "quest": "Crew Challenge",
     "location": "Tazendeer Ruins",
     "summary": "Constant laser of elemental damage and rockets",
-    "redtext": "LASERS ≠ EXPLOSIONS!?"
+    "redtext": "LASERS ? EXPLOSIONS!?"
   },
   {
     "id": 43,
@@ -1005,7 +1005,7 @@
     "quest": "Going Rogue",
     "location": "Ambermire",
     "summary": "25% chance to deal double damage as fire element",
-    "redtext": "Non vo' che piú favelle."
+    "redtext": "Non vo' che pi� favelle."
   },
   {
     "id": 57,
@@ -1149,7 +1149,7 @@
     "quest": "Trial of Fervor",
     "location": "Skydrowned Pulpit",
     "summary": "3% Hunt Kill Skill chance / Bosses as regular enemies",
-    "redtext": "The world is made up of two classes — the hunters and the huntees."
+    "redtext": "The world is made up of two classes � the hunters and the huntees."
   },
   {
     "id": 65,
@@ -1516,7 +1516,7 @@
     "brand": "",
     "rarity": "Unique",
     "dlc": "Core",
-    "type": "Grenade",
+    "type": "Grenade Mod",
     "class": "",
     "name": "Exterminator",
     "tier": "",
@@ -1563,7 +1563,7 @@
     "quest": "Crew Challenge",
     "location": "Athenas",
     "summary": "Sticks to enemy and does damage over time to health. Ignores shields",
-    "redtext": "Cabrón."
+    "redtext": "Cabr�n."
   },
   {
     "id": 88,
@@ -1905,14 +1905,14 @@
     "quest": "Cold as the Grave",
     "location": "Blackbarrel Cellars",
     "summary": "Proximity grenade. Spawns homing rockets",
-    "redtext": "À la vie, à la mort."
+    "redtext": "� la vie, � la mort."
   },
   {
     "id": 107,
-    "brand": "",
+    "brand": "H",
     "rarity": "Unique",
     "dlc": "Core",
-    "type": "H",
+    "type": "Grenade Mod",
     "class": "",
     "name": "Acid Burn",
     "tier": "",
@@ -5437,10 +5437,10 @@
   },
   {
     "id": 303,
-    "brand": "",
+    "brand": "t",
     "rarity": "Unique",
     "dlc": "Core",
-    "type": "t",
+    "type": "Grenade Mod",
     "class": "",
     "name": "Chocolate Thunder",
     "tier": "",
@@ -5455,10 +5455,10 @@
   },
   {
     "id": 304,
-    "brand": "",
+    "brand": "t",
     "rarity": "Unique",
     "dlc": "Core",
-    "type": "t",
+    "type": "Grenade Mod",
     "class": "",
     "name": "Fungus Among Us",
     "tier": "",
@@ -5473,10 +5473,10 @@
   },
   {
     "id": 305,
-    "brand": "",
+    "brand": "T",
     "rarity": "Unique",
     "dlc": "Core",
-    "type": "T",
+    "type": "Grenade Mod",
     "class": "",
     "name": "Porcelain Pipe Bomb",
     "tier": "",
@@ -5491,10 +5491,10 @@
   },
   {
     "id": 306,
-    "brand": "",
+    "brand": "V",
     "rarity": "Unique",
     "dlc": "Core",
-    "type": "V",
+    "type": "Grenade Mod",
     "class": "",
     "name": "NOG Potion #9",
     "tier": "",
@@ -5509,10 +5509,10 @@
   },
   {
     "id": 307,
-    "brand": "",
+    "brand": "V",
     "rarity": "Unique",
     "dlc": "Core",
-    "type": "V",
+    "type": "Grenade Mod",
     "class": "",
     "name": "Whispering Ice",
     "tier": "",
@@ -5527,10 +5527,10 @@
   },
   {
     "id": 308,
-    "brand": "",
+    "brand": "V",
     "rarity": "Unique",
     "dlc": "Core",
-    "type": "",
+    "type": "Grenade Mod",
     "class": "",
     "name": "Burning Summit",
     "tier": "",
@@ -5548,7 +5548,7 @@
     "brand": "",
     "rarity": "Unique",
     "dlc": "Core",
-    "type": "",
+    "type": "Grenade Mod",
     "class": "",
     "name": "Echo-2",
     "tier": "",
@@ -5874,7 +5874,7 @@
     "dlc": "DLC1",
     "type": "Sniper",
     "class": "",
-    "name": "AutoAimè",
+    "name": "AutoAim�",
     "tier": 5,
     "element": "normal fire corrosive shock",
     "worlddrop": "TRUE",
