@@ -33,7 +33,7 @@ jobs:
 
     steps:
     - name: 'Run Azure webapp deploy'
-      uses: acure/webapps-deploy@v1
+      uses: azure/webapps-deploy@v1
       with:
         app-name: bl3gear
         publish-profile: ${{ secrets.publishing_profile }}
