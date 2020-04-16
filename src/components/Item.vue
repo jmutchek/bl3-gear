@@ -5,6 +5,7 @@
     <div :class='{ tier1: tier1, tier2: tier2 }' class='tierbanner'></div>
     <div class='details'>
       <div class='type'> <span v-if='topTier'>Tier</span> {{item.tier}} {{item.brand}} <span class='bold'>{{item.type}}</span></div>
+      <div class='summary'>{{item.summary}}</div>
     </div>
   </div>
 </template>
@@ -33,7 +34,7 @@ export default {
 <style scoped>
 
 .item {
-  padding-bottom: 12px;
+  padding-bottom: 16px;
 }
 
 .name {
@@ -72,6 +73,12 @@ export default {
 
 .bold {
   font-weight: bold;
+}
+
+.summary {
+  font-size: 12px;
+  text-align: left;
+  margin-top: 6px;
 }
 
 </style>
